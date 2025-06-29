@@ -1,0 +1,154 @@
+/* Slider.module.css */
+
+.slider {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin-top: 34px;
+  background-image: url('../../assets/images/fon__home.jpg');
+  background-size: cover;
+  background-position: center;
+  
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.slide {
+  position: absolute;
+  top: 50%;
+  left: 88px;
+  transform: translateY(-50%);
+  color: white;
+  z-index: 2;
+}
+
+.titleHomeDecaration {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 61.6px;
+  color: #1B365D;
+  max-width: 800px;
+  
+}
+
+.titleHomeDecaration1 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #434140;
+  margin-top: 12px;
+  display: block;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.buttonHomeDecaration {
+  max-width: 186px;
+  height: 46px;
+  border-radius: 24px;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+}
+
+.buttonHomeDecaration:hover {
+  background-color: #f0f0f0;
+}
+
+.buttonHomeDecaration1 {
+  max-width: 117px;
+  height: 20px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1B365D;
+  text-decoration: none;
+  padding-left: 4%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cardHome {
+  background: #F1C0C7;
+  max-width:  499px;
+  max-height: 86px;
+  margin-top: 53%;
+
+ 
+  bottom: 30px;
+ 
+  z-index: 2;
+  display: flex;
+  align-items: center;
+}
+
+.cardHomeDecaration {
+  max-width: 84px;
+  height: 54px;
+  margin-top: 16px;
+  padding-left: 88px;
+}
+
+.titleCardHome {
+  max-width: 180px;
+  height: 21px;
+ 
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 21px;
+  padding-left: 4%;
+  color: #1B365D;
+}
+
+.cardHome1 {
+  max-width: 288px;
+  height: 20px;
+ 
+  color: #1B365D;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 3%;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px  0;
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

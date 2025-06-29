@@ -1,0 +1,42 @@
+/* Шрифты Din */
+@font-face {
+    font-family: "Din Light";
+    src: local("Din Light"),
+        url("../fonts/DINCondensed-Light.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Din Regular";
+    src: local("Din Regular"),
+        url("../fonts/DINCondensed-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* Шрифты OpenSans */
+@font-face {
+    font-family: "OpenSans Light";
+    src: local("OpenSans Light"),
+        url("../fonts/OpenSans-Light.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* Шрифты Mulish */
+@font-face {
+    font-family: "Mulish Light";
+    src: local("Mulish Light"),
+        url("../fonts/Mulish-Light.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Mulish ExtraLight";
+    src: local("Mulish ExtraLight"),
+        url("../fonts/Mulish-ExtraLight.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}

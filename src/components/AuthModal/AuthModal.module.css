@@ -1,0 +1,124 @@
+.modalOverlay {
+  
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.74);
+  padding-top: 5rem;
+}
+
+.modal {
+  width: 30%;
+  margin: 0 auto;
+  position: relative;
+  background-color: #2c2f33;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.title {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.subtitle {
+  color: #fff;
+  font-size: 1.7rem;
+  margin-top: 1rem;
+}
+
+.divider {
+  margin: 1.5rem 0;
+  border: 0;
+  border-top: 1px solid #444;
+}
+
+.formGroup label {
+  color: #fff;
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.formGroup input[type="email"],
+.formGroup input[type="password"] {
+  width: 95%;
+  padding: 1.5rem;
+  display: inline-block;
+  margin: 0.5rem 0 2.2rem 0;
+  background: #ddd;
+  opacity: 0.8;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.formGroup input:focus {
+  background: #fff;
+  outline: none;
+}
+
+.checkboxGroup {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin: 1rem 0;
+}
+
+.checkboxGroup input[type="checkbox"] {
+  margin-right: 1rem;
+}
+
+.terms {
+  color: #fff;
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancelButton,
+.submitButton {
+  background-color: rgb(19, 219, 19);
+  color: #fff;
+  padding: 1rem;
+  margin: 0.8rem 0;
+  width: 48%;
+  opacity: 0.8;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.cancelButton:hover,
+.submitButton:hover {
+  opacity: 1;
+}
+
+.cancelButton {
+  background-color: red;
+}
+
+.closeButton {
+  position: absolute;
+  right: 3.5rem;
+  top: 1.5rem;
+  font-size: 3rem;
+  color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.closeButton:hover {
+  color: red;
+}

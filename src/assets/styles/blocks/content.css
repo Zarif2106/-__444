@@ -1,0 +1,147 @@
+.about-us {
+    display: flex;
+    position: relative;
+}
+
+.about-us__description {
+    position: absolute;
+    background: rgba(233, 236, 224, 1);
+    border-radius: 50%;
+    height: 157px;
+    width: 157px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 22px;
+    box-sizing: border-box;
+    font-family: "Din";
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.about-us__content {
+    flex-basis: 50%;
+}
+
+/* connection */
+.connection {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 150px 146px 133px 146px;
+}
+
+.connection__content {
+    flex-grow: 1;
+}
+
+.connection__title {
+    font-family: "OpenSans Light";
+    font-size: 40px;
+    line-height: 60px;
+    text-align: left;
+    margin: 0;
+}
+
+.connection__description1 {
+    font-family: "OpenSans Light";
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+    margin: 50px 0 0 0;
+}
+
+.connection__description2 {
+    font-family: "OpenSans Light";
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+    padding-bottom: 50px;
+    margin: 20px 0 0 3px;
+}
+
+.social-network {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 42px;
+}
+
+.social-network__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+
+    background: rgba(91, 100, 96, 1);
+    border-radius: 50%;
+}
+
+.booking {
+    max-width: 386px;
+    padding-top: 46px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.booking__button {
+    display: flex; 
+    background: rgba(91, 100, 96, 1); 
+    color: #fff; 
+    font-family: "Din Light";
+    width: 266px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.booking__box {
+    width: 120px;
+    height: 100px;
+    background-color: rgba(233, 236, 224, 1);
+    padding: 22px 29px;
+    display: flex;
+    flex-direction: column;
+}
+
+.booking__top {
+    font-family: "Din Light";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: left;
+}
+
+.booking__items {
+    font-family: "Din Regular";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+}
+
+.booking__batton {
+    font-family: "Din Light";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: right;
+}
+
+.booking--header {
+    position: absolute;
+    max-width: 386px;
+    display: flex;
+    flex-wrap: wrap;
+    bottom: -37px;
+    z-index: 1;
+    left: 146px;
+}
+.slider {
+    position: relative;
+}

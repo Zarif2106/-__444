@@ -1,0 +1,98 @@
+.footer {
+    max-width: 1440px;
+    
+    background: #272E38;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1264px;
+    height: 505px;
+    padding-left: 88px;
+    margin: 0 auto; /* центрируем */
+}
+
+.logo {
+    max-width: 128px;
+    height: 62px;
+    padding-top: 3%;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+  margin-top: -4%;
+}
+
+.linkGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link {
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #fff;
+    padding-left: 20%;
+}
+
+.newsletter {
+    margin-top: 30px;
+    margin-left:40% ;
+}
+
+.newsletter p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+    max-width: 300px;
+    margin-top: -30%;
+    margin-left: 60%;
+}
+
+.signUpButton,
+.languageButton {
+    border-radius: 24px;
+    border: 1px solid #3D434C;
+    background-color: #272E38;
+    color: #fff;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 60%;
+}
+
+.signUpButton {
+    max-width: 150px;
+    height: 40px;
+}
+
+.languageButton {
+    max-width: 250px;
+    height: 40px;
+}
+
+.legal {
+    margin-top: -10%;
+    padding: 0 88px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    color: #9CA5B0;
+    margin-left: 20%;
+}
+
+.legal p {
+    margin-bottom: 20px;
+}

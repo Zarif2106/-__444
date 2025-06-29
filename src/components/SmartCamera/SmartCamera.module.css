@@ -1,0 +1,82 @@
+.smartCamera {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, #fff 50%, #d0e7ea 50%);
+  background-size: cover;
+  padding: 0 20px;
+  
+  overflow-x: hidden;
+}
+
+.titleSection {
+  width: 100%;
+  max-width: 682px;
+  margin-top: -30px;
+  padding-left: 88px;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: clamp(2rem, 5vw, 3.125rem); /* от 32px до 50px */
+  line-height: 1.1;
+  color: #1b365d;
+}
+
+.imageContainer {
+  width: 100%;
+  max-width: 1264px;
+  margin-top: 70px;
+  margin: 0 auto;
+ 
+}
+
+.imageContainer img {
+  width: 100%;
+  height: auto;
+  
+}
+
+.featuresWrapper {
+  width: 100%;
+  max-width: 1180.81px;
+  margin-top: 30px;
+  padding: 0 88px;
+  display: flex;
+  
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.feature {
+  width: calc(50% - 20px);
+ 
+}
+
+.featureTitle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #1b365d;
+}
+
+.featureText {
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.35;
+}
+
+.learnMore {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1b365d;
+}
+
