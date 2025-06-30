@@ -25,7 +25,7 @@ const Header: React.FC<HeaderProps> = ({ onLoginClick }) => {
         </button>
 
         <nav className={`${styles.nav} ${mobileMenuOpen ? styles.open : ''}`}>
-          <Link to="/products" className={styles.link}>Продукты</Link>
+          <Link to="/PortalPraducs" className={styles.link}>Продукты</Link>
           <Link to="/features" className={styles.link}>Функции</Link>
           <Link to="/support" className={styles.link}>Поддержка</Link>
           <button className={styles.loginButton} onClick={onLoginClick}>

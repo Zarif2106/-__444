@@ -1,7 +1,9 @@
+
 import React from 'react';
 import Layout from '../../components/Layout/Layout';
 import Slider from '../../components/Slider/Slider';
 import CardList from '../../components/Cardlist/Cardlist';
+
 
 import SmartCamera from '../../components/SmartCamera/SmartCamera';
 import MessengerIntegration from '../../components/MessengerIntegration/MessengerIntegration';
@@ -14,7 +16,7 @@ const HomePage: React.FC = () => {
   return (
     <Layout>
       <Slider />
-      <CardList />
+      <CardList limit={3} />
       <SmartCamera />
       <MessengerIntegration />
       <StoryTime />
